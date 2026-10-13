@@ -108,7 +108,7 @@ This binary labeling strategy aligns with a practical clinical screening goal: d
 - Abisek Dahal, NIT Meghalaya
 - Abu Motaleb Rony, NIT Meghalaya (B.Tech CSE); Instructor, NSTI Nilphamari
     - Email: abumotalebrony@gmail.com
-    - GitHub: motaleb-roni
+    - GitHub: github.com/Rony2019-2023/secure-cxr-detection-gbm
 - Soumen Moulik, NIT Meghalaya
 
 ### Citation
