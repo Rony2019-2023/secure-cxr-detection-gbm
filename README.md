@@ -28,7 +28,24 @@ This repository: An updated pipeline on 7,001 CXR images with binary labels. The
 | Test set | 724 COVID-19, 677 non-COVID (399 Normal, 278 Viral pneumonia) |
 | Input | 224 x 224, grayscale, scaled to [0, 1] |
 
-**Image selection:** All COVID-19 and Viral pneumonia images were used. For the Normal class, the first 2,038 images by file number were taken (about Normal-1 to Normal-2038). This is not a random sample and its effect was not tested.
+
+**Image Selection:**
+### 📁 Dataset Organization
+
+The dataset was downloaded from Kaggle (COVID-19 Radiography Database) and organized locally in MyDrive under the `FullData` folder with three sub-directories: `Viral`, `Normal`, and `COVID`.
+
+**Folder Structure in MyDrive:**
+
+/MyDrive/FullData/
+├── COVID/ (COVID-19 positive cases)
+├── Normal/ (Normal chest X-rays)
+└── Viral/ (Viral Pneumonia cases)
+
+**Labeling Rule:**
+- **Label 0 (Non-COVID):** Every image from the Normal and Viral Pneumonia folders was labeled as 0.
+- **Label 1 (COVID):** Every image from the COVID-19 folder was labeled as 1.
+
+This binary labeling strategy aligns with a practical clinical screening goal: distinguishing COVID-19 positive cases from all other cases (COVID vs. Everything Else).
 
 **Labeling rule:** Every Normal and Viral pneumonia image is labeled 0, every COVID-19 image is labeled 1. This matches a practical screening goal: COVID vs everything else.
 
