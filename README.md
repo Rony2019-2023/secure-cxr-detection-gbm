@@ -158,13 +158,6 @@ Eq. (1) (Precision) and Eq. (2) (Recall) are correct. All metrics in this reposi
 
 Also reported: ROC-AUC and PR-AUC (Average Precision).
 
-## How to run
-
-Requirements: Python 3.8+, numpy, pandas, matplotlib, pillow, scikit-learn, xgboost, tensorflow (CNN and RNN).
-
-```bash
-pip install numpy pandas matplotlib pillow scikit-learn xgboost tensorflow
-```
 
 1. Download the dataset from Kaggle and place the class folders (`Covid-19`, `Normal`, `Viral pneumonia`) in one directory (for example `Project/Mydataset/FullData/`).
 2. Set `DATA_DIR` (and the results path) at the top of each notebook.
@@ -172,16 +165,6 @@ pip install numpy pandas matplotlib pillow scikit-learn xgboost tensorflow
 4. Open any of the 11 notebooks in Google Colab or Jupyter and run the cells top to bottom.
 5. Metrics and predictions are saved under `results/` as `*_metrics.csv` and `*_test_predictions.csv`.
 
-## Repository structure
-
-```text
-.
-├── notebooks/        # 11 model notebooks
-├── results/          # metrics and test predictions (CSV)
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
 
 ## Future work
 
