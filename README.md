@@ -9,7 +9,7 @@ Abisek Dahal, Abu Motaleb Rony, Soumen Moulik
 Springer CCIS 2128 (MIND 2023, published 2024), Scopus indexed  
 DOI: 10.1007/978-3-031-62217-5_20
 
-Original paper: GBM and 【entity-CNN¦canonical_name=CNN】 reached 97.41% accuracy; GBM needed less computation time than 【entity-CNN¦canonical_name=CNN】.
+In the original paper, both GBM and CNN achieved 97.41% accuracy. However, GBM required less computation time than CNN.
 
 This repository: An updated pipeline on 7,001 CXR images with binary labels. The focus is COVID sensitivity and balanced metrics, not headline accuracy alone.
 
