@@ -31,7 +31,7 @@ This repository: An updated pipeline on 7,001 CXR images with binary labels. The
 
 ### 📁 Dataset Organization
 
-The dataset was downloaded from Kaggle and stored in MyDrive.
+The dataset was downloaded from Kaggle(https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database) and stored in MyDrive. As the data set was very big I used 3618 images of covid, 2038 images of Normal, 1345 of viral Pneumonia.
 
 **Folder Structure:**
 ```bash
