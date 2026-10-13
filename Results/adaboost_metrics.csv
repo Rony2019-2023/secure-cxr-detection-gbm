@@ -1,0 +1,11 @@
+Metric,Value
+Accuracy,0.8472519628836546
+Precision,0.8364116094986808
+Sensitivity (Recall),0.8756906077348067
+Specificity,0.8168389955686853
+F1-score,0.8556005398110661
+ROC-AUC,0.9228987979140995
+PR-AUC (Average Precision),0.9148762016711595
+Training Time (seconds),2576.622418418
+Testing Time (seconds),8.671424772000137
+Average Prediction Time Per Image (seconds),0.006189453798715301
