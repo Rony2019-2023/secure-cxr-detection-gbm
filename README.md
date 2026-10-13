@@ -29,11 +29,6 @@ This repository: An updated pipeline on 7,001 CXR images with binary labels. The
 | Input | 224 x 224, grayscale, scaled to [0, 1] |
 
 
-**Image Selection:**
-### 📁 Dataset Organization
-
-The dataset was downloaded from Kaggle (COVID-19 Radiography Database) and organized locally in MyDrive under the `FullData` folder with three sub-directories: `Viral`, `Normal`, and `COVID`.
-
 ### 📁 Dataset Organization
 
 The dataset was downloaded from Kaggle and stored in MyDrive.
