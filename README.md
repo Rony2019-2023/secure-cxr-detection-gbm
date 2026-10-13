@@ -34,12 +34,21 @@ This repository: An updated pipeline on 7,001 CXR images with binary labels. The
 
 The dataset was downloaded from Kaggle (COVID-19 Radiography Database) and organized locally in MyDrive under the `FullData` folder with three sub-directories: `Viral`, `Normal`, and `COVID`.
 
-**Folder Structure in MyDrive:**
+### 📁 Dataset Organization
 
+The dataset was downloaded from Kaggle and stored in MyDrive.
+
+**Folder Structure:**
+```bash
 /MyDrive/FullData/
-├── COVID/ (COVID-19 positive cases)
-├── Normal/ (Normal chest X-rays)
-└── Viral/ (Viral Pneumonia cases)
+├── COVID/      # COVID-19 positive cases (3,618 images)
+├── Normal/     # Normal chest X-rays (2,038 images)
+└── Viral/      # Viral Pneumonia cases (1,345 images)
+```
+
+**Binary Labeling:**
+- `Non-COVID (0)` = Normal + Viral
+- `COVID (1)` = COVID folder
 
 **Labeling Rule:**
 - **Label 0 (Non-COVID):** Every image from the Normal and Viral Pneumonia folders was labeled as 0.
